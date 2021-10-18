@@ -1,0 +1,12 @@
+user|users_mentioned|message
+john||Hi all
+jim,||Morning
+mary||heya
+it_support||@all good morning
+jim||Am I correct in saying Python is better than Java?
+mary|jim|@jim Yeah, spot on! Python is way superior to Java.
+john||Can I do rest apis in NodeJs? Also does Loopback works as a framework?
+it_support|john|@john Yeah you can do rest apis in nodejs.
+mary||Have you guys seen the latest golang framework?
+it_support||Loopback is one of the best Nodejs frameworks.
+jim||yeah, its a beast.

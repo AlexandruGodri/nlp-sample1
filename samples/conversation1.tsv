@@ -1,0 +1,14 @@
+user|users_mentioned|message
+john||Hi all
+jim,||Morning
+mary||heya
+it_support||@all good morning
+jim||Can you help me with some information about docker containers? Can't seem to get my head around them.
+mary||Do you guys know anything about bash script?
+mary||I need to debug a script that does some kind of automation for a deployment
+john|mary|@mary Sorry, can't help you there, no clue
+it_support|jim|@jim what exactly do you need?
+jim||need to exec inside a container
+it_support||you can use this command: docker exec -it container (name or id)
+jim|it_support|@it_support thanks, that works
+jim|mary|@mary this link is a good tutorial on bash script https://bash-automation.tutorial

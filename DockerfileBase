@@ -1,0 +1,16 @@
+FROM ubuntu:20.04
+
+ENV DEBIAN_FRONTEND noninteractive
+
+RUN apt-get update -y
+RUN apt-get upgrade -y
+
+RUN apt-get install -y nano curl
+RUN apt-get install -y python3-pip python3-dev
+
+RUN pip3 install nltk
+RUN python3 -m nltk.downloader -d /usr/local/share/nltk_data all
+
+RUN pip3 install bs4 inflect
+
+WORKDIR /opt/src
